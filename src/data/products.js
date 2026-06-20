@@ -8,7 +8,7 @@ export const products = [
         price: 650,
         rating: 4.8,
         reviews: 124,
-        image: '/images/products/Linear1.jpg',
+        image: 'images/products/Linear1.jpg',
         specs: ['Linear', '55g', '5-pin'],
         inStock: true,
         badge: 'Хит'
@@ -22,7 +22,7 @@ export const products = [
         price: 420,
         rating: 4.5,
         reviews: 89,
-        image: '/images/products/Linear2.jpg',
+        image: 'images/products/Linear2.jpg',
         specs: ['Linear', '43g', '3-pin'],
         inStock: true,
         badge: 'Хит'
@@ -36,7 +36,7 @@ export const products = [
         price: 500,
         rating: 4.2,
         reviews: 256,
-        image: '/images/products/Linear3.jpg',
+        image: 'images/products/Linear3.jpg',
         specs: ['Linear', '55g', '3-pin'],
         inStock: true,
         badge: null
@@ -50,7 +50,7 @@ export const products = [
         price: 460,
         rating: 4.6,
         reviews: 167,
-        image: '/images/products/Linear4.jpg',
+        image: 'images/products/Linear4.jpg',
         specs: ['Linear', '50g', '5-pin'],
         inStock: true,
         badge: 'Хит'
@@ -64,7 +64,7 @@ export const products = [
         price: 380,
         rating: 4.7,
         reviews: 312,
-        image: '/images/products/Linear5.jpg',
+        image: 'images/products/Linear5.jpg',
         specs: ['Linear', '50g', '5-pin'],
         inStock: true,
         badge: 'Хит'
@@ -78,7 +78,7 @@ export const products = [
         price: 1200,
         rating: 4.9,
         reviews: 78,
-        image: '/images/products/Tactile1.jpg',
+        image: 'images/products/Tactile1.jpg',
         specs: ['Tactile', '67g', '5-pin'],
         inStock: true,
         badge: null
@@ -91,7 +91,7 @@ export const products = [
         price: 9500,
         rating: 4.8,
         reviews: 45,
-        image: '/images/products/Tactile2.jpg',
+        image: 'images/products/Tactile2.jpg',
         specs: ['ABS', 'Cherry profile', 'PBT-like set'],
         inStock: true,
         badge: null
@@ -104,7 +104,7 @@ export const products = [
         price: 8500,
         rating: 4.6,
         reviews: 203,
-        image: '/images/products/Tactile3.jpg',
+        image: 'images/products/Tactile3.jpg',
         specs: ['65%', 'Gasket', 'Hot-swap'],
         inStock: true,
         badge: null
@@ -117,7 +117,7 @@ export const products = [
         price: 1500,
         rating: 4.7,
         reviews: 445,
-        image: '/images/products/Tactile4.jpg',
+        image: 'images/products/Tactile4.jpg',
         specs: ['Screw-in', 'Pre-lubed', '7u/6.25u'],
         inStock: true,
         badge: null
@@ -130,7 +130,7 @@ export const products = [
         price: 14500,
         rating: 4.5,
         reviews: 156,
-        image: '/images/products/Tactile5.jpg',
+        image: 'images/products/Tactile5.jpg',
         specs: ['75%', 'Aluminum', 'QMK/VIA'],
         inStock: true,
         badge: null
@@ -143,7 +143,7 @@ export const products = [
         price: 12500,
         rating: 4.4,
         reviews: 198,
-        image: '/images/products/Clicky1.jpg',
+        image: 'images/products/Clicky1.jpg',
         specs: ['65%', 'Polycarb', 'Hot-swap'],
         inStock: true,
         badge: null
@@ -157,7 +157,7 @@ export const products = [
         price: 1800,
         rating: 4.9,
         reviews: 67,
-        image: '/images/products/Clicky2.jpg',
+        image: 'images/products/Clicky2.jpg',
         specs: ['Tactile', '62g', '5-pin'],
         inStock: true,
         badge: 'Хит'
@@ -171,7 +171,7 @@ export const products = [
         price: 1800,
         rating: 4.9,
         reviews: 67,
-        image: '/images/products/Clicky3.jpg',
+        image: 'images/products/Clicky3.jpg',
         specs: ['Clicky', '62g', '5-pin'],
         inStock: true,
         badge: null
@@ -185,7 +185,7 @@ export const products = [
         price: 1800,
         rating: 4.9,
         reviews: 67,
-        image: '/images/products/Clicky4.jpg',
+        image: 'images/products/Clicky4.jpg',
         specs: ['Clicky', '62g', '5-pin'],
         inStock: true,
         badge: null
@@ -199,7 +199,7 @@ export const products = [
         price: 1800,
         rating: 4.9,
         reviews: 67,
-        image: '/images/products/Clicky5.jpg',
+        image: 'images/products/Clicky5.jpg',
         specs: ['Clicky', '62g', '5-pin'],
         inStock: true,
         badge: null
@@ -212,7 +212,7 @@ export const products = [
         price: 9500,
         rating: 4.6,
         reviews: 67,
-        image: '/images/products/Case1.jpg',
+        image: 'images/products/Case1.jpg',
         specs: ['65%', 'Aluminum', 'CNC'],
         inStock: true,
         badge: null
@@ -225,7 +225,7 @@ export const products = [
         price: 8800,
         rating: 4.5,
         reviews: 58,
-        image: '/images/products/Case2.jpg',
+        image: 'images/products/Case2.jpg',
         specs: ['65%', 'Polycarb', 'Clear'],
         inStock: true,
         badge: 'new'
@@ -238,7 +238,7 @@ export const products = [
         price: 7800,
         rating: 4.4,
         reviews: 41,
-        image: '/images/products/Case3.jpg',
+        image: 'images/products/Case3.jpg',
         specs: ['65%', 'Plastic', 'Lightweight'],
         inStock: true,
         badge: null
@@ -251,7 +251,7 @@ export const products = [
         price: 11200,
         rating: 4.7,
         reviews: 52,
-        image: '/images/products/Case4.jpg',
+        image: 'images/products/Case4.jpg',
         specs: ['75%', 'Aluminum', 'Premium'],
         inStock: true,
         badge: null
@@ -264,7 +264,7 @@ export const products = [
         price: 8200,
         rating: 4.5,
         reviews: 39,
-        image: '/images/products/Case5.jpg',
+        image: 'images/products/Case5.jpg',
         specs: ['60%', 'Aluminum', 'CNC'],
         inStock: true,
         badge: null
@@ -277,7 +277,7 @@ export const products = [
         price: 8200,
         rating: 4.8,
         reviews: 88,
-        image: '/images/products/Keycap1.jpg',
+        image: 'images/products/Keycap1.jpg',
         specs: ['ABS', 'Cherry profile', 'Backlit'],
         inStock: true,
         badge: null
@@ -290,7 +290,7 @@ export const products = [
         price: 4200,
         rating: 4.6,
         reviews: 134,
-        image: '/images/products/Keycap2.jpg',
+        image: 'images/products/Keycap2.jpg',
         specs: ['PBT', 'ASA profile', 'Dye-sub'],
         inStock: true,
         badge: null
@@ -303,7 +303,7 @@ export const products = [
         price: 5600,
         rating: 4.7,
         reviews: 97,
-        image: '/images/products/Keycap3.jpg',
+        image: 'images/products/Keycap3.jpg',
         specs: ['PBT', 'Cherry profile', 'Double-shot'],
         inStock: true,
         badge: null
@@ -316,7 +316,7 @@ export const products = [
         price: 2500,
         rating: 4.3,
         reviews: 61,
-        image: '/images/products/Keycap4.jpg',
+        image: 'images/products/Keycap4.jpg',
         specs: ['PBT', 'XDA profile', 'Blank'],
         inStock: true,
         badge: null
@@ -329,7 +329,7 @@ export const products = [
         price: 3600,
         rating: 4.4,
         reviews: 73,
-        image: '/images/products/Keycap5.jpg',
+        image: 'images/products/Keycap5.jpg',
         specs: ['ABS', 'Cherry profile', 'Clone'],
         inStock: true,
         badge: null
