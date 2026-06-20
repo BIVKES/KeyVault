@@ -1,0 +1,150 @@
+.cart-page {
+    margin-top: 100px;
+
+    &__container {
+        padding: 0 20px;
+    }
+
+    &__btn {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+
+    &__empty {
+        text-align: center;
+        padding: 64px 32px;
+
+        h2 {
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+
+        &-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        &-icon {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+    }
+
+    &__layout {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 32px;
+    }
+
+    &__sidebar {
+        position: sticky;
+        top: 100px;
+        height: fit-content;
+    }
+
+    &__summary {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 24px;
+
+        h3 {
+            margin-bottom: 24px;
+            font-size: 20px;
+        }
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        color: var(--text-secondary);
+
+        &.cart-page__total {
+            border-top: 1px solid var(--border);
+            padding-top: 16px;
+            margin-top: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+    }
+
+    &__total {
+        span:last-child {
+            color: var(--accent-secondary);
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 20px;
+        }
+    }
+
+    &__free {
+        color: var(--success);
+    }
+}
+
+@media (max-width: 768px) {
+    .cart-page {
+        &__layout {
+            grid-template-columns: 1fr;
+        }
+
+        &__sidebar {
+            position: static;
+        }
+
+        &__empty {
+            padding: 32px 16px;
+
+            &-btn {
+                flex-direction: column;
+
+                .base-button {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+        }
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__summary {
+            margin-bottom: 50px;
+
+            .cart-page__btn {
+                margin-top: 20px;
+                align-items: center;
+                flex-direction: column;
+
+                .base-button {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .cart-page {
+        margin-top: 80px;
+
+        &__title {
+            font-size: 20px;
+            margin-bottom: 16px;
+        }
+    }
+}

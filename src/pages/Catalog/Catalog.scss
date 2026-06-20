@@ -1,0 +1,44 @@
+.catalog {
+    padding: 100px 20px 128px 20px;
+
+    &__grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .catalog {
+        &__grid {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog {
+        padding: 100px 0 64px;
+
+        &__grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 32px;
+            margin-top: 24px;
+        }
+
+        &__title {
+            font-size: 28px;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .catalog {
+        padding: 100px 20px 64px;
+        &__grid {
+            grid-template-columns: 1fr;
+        }
+    }
+}
