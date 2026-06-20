@@ -1,6 +1,6 @@
 <template>
     <section class="catalog">
-        <div class="container">
+        <div class="catalog__container container">
             <div class="catalog__header">
                 <h1 class="catalog__title">Каталог</h1>
             </div>

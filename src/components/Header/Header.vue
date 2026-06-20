@@ -8,29 +8,30 @@
                 </div>
 
                 <NavMenu variant="horizontal" class="header__nav" />
+                <div class="header__right">
+                    <button 
+                        class="header__burger" 
+                        @click="toggleMenu"
+                        :class="{ 'header__burger--open': isMenuOpen }"
+                        aria-label="Открыть меню"
+                    >
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                        <span class="header__burger-line"></span>
+                    </button>
 
-                <button 
-                    class="header__burger" 
-                    @click="toggleMenu"
-                    :class="{ 'header__burger--open': isMenuOpen }"
-                    aria-label="Открыть меню"
-                >
-                    <span class="header__burger-line"></span>
-                    <span class="header__burger-line"></span>
-                    <span class="header__burger-line"></span>
-                </button>
-
-                <RouterLink to="/cart" class="header-inner__cart">
-                    <span class="header-inner__cart-icon">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M9 2L6 7H3L5.5 20H18.5L21 7H18L15 2H9Z"/>
-                            <path d="M9 11V17M15 11V17"/>
-                        </svg>
-                    </span>
-                    <span v-if="cart.totalItems" class="badge">
-                        {{ cart.totalItems }}
-                    </span>
-                </RouterLink>
+                    <RouterLink to="/cart" class="header-inner__cart">
+                        <span class="header-inner__cart-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 2L6 7H3L5.5 20H18.5L21 7H18L15 2H9Z"/>
+                                <path d="M9 11V17M15 11V17"/>
+                            </svg>
+                        </span>
+                        <span v-if="cart.totalItems" class="badge">
+                            {{ cart.totalItems }}
+                        </span>
+                    </RouterLink>
+                </div>
             </div>
         </div>
 

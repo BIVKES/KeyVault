@@ -212,6 +212,14 @@
 
 @media (max-width: 480px) {
     .header {
+
+        &__right {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
         &-inner {
             padding: 8px 12px;
 

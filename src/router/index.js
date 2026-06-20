@@ -1,5 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '@/pages/Home/Home.vue'
+import { useScrollStore } from '@/stores/scroll'
 
 const routes = [
     {
@@ -42,9 +43,25 @@ const routes = [
 const router = createRouter({
     history: createWebHashHistory('/KeyVault/'),
     routes,
-    scrollBehavior() {
+    scrollBehavior(to, from, savedPosition) {
+        const scrollStore = useScrollStore()
+
+        if (savedPosition) {
+            return savedPosition
+        }
+
+        const savedY = scrollStore.getPosition(to.path)
+        if (savedY > 0 && to.path !== from.path) {
+            return { top: savedY, behavior: 'instant' }
+        }
+
         return { top: 0 }
     }
+})
+
+router.beforeEach((to, from) => {
+    const scrollStore = useScrollStore()
+    scrollStore.savePosition(from.path, window.scrollY)
 })
 
 export default router

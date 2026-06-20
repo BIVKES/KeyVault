@@ -51,4 +51,29 @@
       padding: 0 12px;
     }
   }
+
+  ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+      border-radius: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+      background: var(--bg-card);
+      border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+      background: var(--accent);
+      border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent-secondary);
+  }
+
+  * {
+      scrollbar-width: thin;
+      scrollbar-color: var(--accent) var(--bg-card);
+  }
 </style>

@@ -103,7 +103,6 @@ input[type="range"] {
     .catalog {
         &__filters {
             flex-wrap: wrap;
-            gap: 6px;
         }
 
         &__price {
@@ -115,8 +114,8 @@ input[type="range"] {
     }
 
     button {
-        padding: 6px 13px;
-        font-size: 14px;
+        padding: 5px 5px;
+        font-size: 11px;
     }
 
     input[type="range"] {

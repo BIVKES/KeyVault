@@ -1,6 +1,10 @@
 .catalog {
     padding: 100px 20px 128px 20px;
 
+    &__container {
+        padding: 0;
+    }
+
     &__grid {
         margin-top: 40px;
         display: grid;
