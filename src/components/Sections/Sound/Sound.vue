@@ -20,7 +20,7 @@
                                     <div class="sound__lab-bar"></div>
                                 </div>
                             </div>
-                            <div class="sound__lab-play">      <!-- ← УБРАТЬ button, оставить div -->
+                            <div class="sound__lab-play">
                                 <svg v-if="activeSound === sound.id" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                     <rect x="6" y="4" width="4" height="16" rx="1"/>
                                     <rect x="14" y="4" width="4" height="16" rx="1"/>
@@ -51,25 +51,25 @@
             id: 'oil-king', 
             name: 'Gateron Oil King', 
             desc: 'Deep, thocky linear',
-            audio: '/audio/gateron-oil-king.mp3'
+            audio: 'audio/gateron-oil-king.mp3'
         },
         { 
             id: 'holy-panda', 
             name: 'Holy Panda', 
             desc: 'Tactile, marbly',
-            audio: '/audio/holy-panda.mp3'
+            audio: 'audio/holy-panda.mp3'
         },
         { 
             id: 'box-white', 
             name: 'Kailh Box White', 
             desc: 'Clicky, crisp',
-            audio: '/audio/kailh-box-white.mp3'
+            audio: 'audio/kailh-box-white.mp3'
         },
         { 
             id: 'mx-brown', 
             name: 'Cherry MX Brown', 
             desc: 'Tactile, classic',
-            audio: '/audio/cherry-mx-brown.mp3'
+            audio: 'audio/cherry-mx-brown.mp3'
         }
     ]
 

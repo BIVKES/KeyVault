@@ -7,10 +7,8 @@
                     <AppLogo />
                 </div>
 
-                <!-- Desktop Navigation -->
                 <NavMenu variant="horizontal" class="header__nav" />
 
-                <!-- Burger Button (mobile only) -->
                 <button 
                     class="header__burger" 
                     @click="toggleMenu"
@@ -36,7 +34,6 @@
             </div>
         </div>
 
-        <!-- Mobile Menu Overlay -->
         <Transition name="slide">
             <div v-if="isMenuOpen" class="mobile-menu" @click.self="closeMenu">
                 <div class="mobile-menu__content">

@@ -62,10 +62,10 @@ export const useConfiguratorStore = defineStore('configurator', {
             },
 
         canProceed: (state) => {
-            if (state.currentStep === 0) return state.selectedLayout !== null  // размер выбран?
-            if (state.currentStep === 1) return state.selectedCase !== null    // корпус выбран?
-            if (state.currentStep === 2) return state.selectedSwitch !== null   // свитчи выбраны?
-            if (state.currentStep === 3) return state.selectedKeycaps !== null  // кейкапы выбраны?
+            if (state.currentStep === 0) return state.selectedLayout !== null  
+            if (state.currentStep === 1) return state.selectedCase !== null    
+            if (state.currentStep === 2) return state.selectedSwitch !== null   
+            if (state.currentStep === 3) return state.selectedKeycaps !== null  
             return true 
         }
     },

@@ -192,7 +192,7 @@
             id: Date.now(), 
             name: `Custom ${config.selectedLayoutObj?.name || 'Keyboard'} Build`,
             price: config.totalPrice,
-            image: '/images/products/Case1.jpg', 
+            image: 'images/products/Case1.jpg', 
             specs: [
                 config.selectedLayoutObj?.name,
                 config.selectedSwitchObj?.name,

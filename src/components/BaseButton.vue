@@ -39,7 +39,7 @@
   }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .btn {
     display: inline-flex;
     align-items: center;
@@ -48,46 +48,46 @@
     letter-spacing: 0.02em;
     cursor: pointer;
     transition: all 0.4s ease;
-    border-radius: 15px;  
-  }
+    border-radius: 15px;
 
-  .btn--primary {
-    padding: 16px 32px;
-    background: var(--accent);
-    color: var(--text-primary);
-    font-size: 18px;
-    min-width: 250px;
-    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
-  }
+    &--primary {
+        padding: 16px 32px;
+        background: var(--accent);
+        color: var(--text-primary);
+        font-size: 18px;
+        min-width: 250px;
+        box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
 
-  .btn--primary:hover {
-    transform: translateY(-3px);
-  }
+        &:hover {
+            transform: translateY(-3px);
+        }
+    }
 
-  .btn--secondary {
-    padding: 16px 32px;
-    color: var(--accent);
-    border: 2px solid var(--accent);
-    font-size: 18px;
-    min-width: 250px;
-  }
+    &--secondary {
+        padding: 16px 32px;
+        color: var(--accent);
+        border: 2px solid var(--accent);
+        font-size: 18px;
+        min-width: 250px;
 
-  .btn--secondary:hover {
-    background: var(--accent);
-    color: var(--color-surface);
-    transform: translateY(-3px);
-  } 
+        &:hover {
+            background: var(--accent);
+            color: var(--color-surface);
+            transform: translateY(-3px);
+        }
+    }
 
-  .btn--config {
-    max-width: 200px;
-    padding: 20px 27px;
-    font-size: 16px;
-  }
+    &--config {
+        max-width: 200px;
+        padding: 20px 27px;
+        font-size: 16px;
+    }
 
-  .btn--large {
-    max-width: 100px;
-    padding: 20px 27px;
-    font-size: 16px;
-  }
+    &--large {
+        max-width: 100px;
+        padding: 20px 27px;
+        font-size: 16px;
+    }
+}
 </style>
 
