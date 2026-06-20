@@ -100,7 +100,6 @@ const shippingMethods = [
     { id: 'standard', name: 'Стандартная доставка', time: '3-5 дней', price: 0 },
     { id: 'express', name: 'Экспресс доставка', time: '1-2 дня', price: 350 }
 ]
-
 const shippingPrice = computed(() => {
     const method = shippingMethods.find(s => s.id === selectedShipping.value)
     return method ? method.price : 0
